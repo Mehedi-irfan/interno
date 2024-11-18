@@ -22,21 +22,64 @@
     <title>Interno</title>
   </head>
   <body class="bg-gray-100">
+    <!-- header section -->
+    <header class="sticky top-0 h-[70px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <!-- logo  -->
+        <a href="">
+          <img src="assets/logo.svg" alt="" />
+        </a>
+        <!-- nav  -->
+        <nav>
+          <!-- nav mobile trigger  -->
+          <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+            <i class="ri-menu-4-line"></i>
+          </div>
+          <ul
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[70px] left-0 right-0 flex flex-col lg:gap-6 gap-4 lg:relative lg:flex-row xl:flex-row lg:p-0 xl:p-0 lg:top-0 xl:top-0 lg:border-none lg:h-full xl:h-full transition-all duration-300"
+            id="nav_menu"
+          >
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Our Works</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!---Page Wrapper---->
     <main class="max-w-[1920px] mx-auto overflow-hidden bg-white">
       <!-- grid img  -->
       <div
-        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 left-0 bottom-0 right-0"
+        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 left-0 bottom-0 right-0 z-10"
       ></div>
       <!-- hero section  -->
       <section
-        class="hero h-[640px] lg:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+        class="hero h-[600px] lg:h-[650px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
       >
-        <div class="container mx-auto">
+        <div
+          class="container mx-auto h-full flex items-center justify-center xl:justify-start"
+        >
           <!-- text  -->
-          <div class="">text</div>
+          <div
+            class="hero__text w-[567px] flex flex-col items-center xl:text-left lg:items-start text-center"
+          >
+            <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+            <p class="mb-8">
+              There are many variations of the passages of lorem Ipsum from
+              available,variations of the passages.
+            </p>
+            <button class="btn btn-primary mx-auto xl:mx-0">
+              Get free estimation
+              <i class="ri-arrow-right-line text-accent"></i>
+            </button>
+          </div>
+          <!-- text End -->
         </div>
       </section>
+      <!-- hero section  -->
     </main>
 
     <!-- temporary div  -->
