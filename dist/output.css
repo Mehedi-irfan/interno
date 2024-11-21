@@ -870,6 +870,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .pb-\[88px\] {
   padding-bottom: 88px;
 }
@@ -888,6 +893,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-primary {
+  font-family: DM Serif Display;
 }
 
 .text-2xl {
@@ -1053,6 +1062,12 @@ h6 {
   color: rgb(205 162 116 / 0.2);
 }
 
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 960px) {
   .lg\:relative {
     position: relative;
@@ -1141,6 +1156,10 @@ h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1159,6 +1178,15 @@ h6 {
 
   .xl\:rounded-bl-\[290px\] {
     border-bottom-left-radius: 290px;
+  }
+
+  .xl\:border-r {
+    border-right-width: 1px;
+  }
+
+  .xl\:border-accent {
+    --tw-border-opacity: 1;
+    border-color: rgb(205 162 116 / var(--tw-border-opacity, 1));
   }
 
   .xl\:bg-grid {
@@ -1180,6 +1208,11 @@ h6 {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:py-\[150px\] {
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   .xl\:text-left {
