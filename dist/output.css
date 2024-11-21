@@ -885,6 +885,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 47 54 / var(--tw-bg-opacity, 1));
+}
+
 .bg-hero {
   background-image: url('/assets/hero/bg.jpg');
 }
@@ -997,6 +1002,11 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(41 47 54 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-xl {
@@ -1132,6 +1142,12 @@ h6 {
 .group:hover .group-hover\:bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+@media (min-width: 648px) {
+  .sm\:rounded-\[70px\] {
+    border-radius: 70px;
+  }
 }
 
 @media (min-width: 768px) {
