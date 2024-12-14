@@ -61,7 +61,7 @@ home-interior-design/
 ```
 
 ## Demo
-A live demo is available at:[ [Your Demo Link Here](#)](https://mehedi-irfan.github.io/interno/)  
+A live demo is available at:[(https://mehedi-irfan.github.io/interno/)  
 (Replace this link with your deployed site link if hosted.)
 
 ## Contributing
@@ -87,7 +87,7 @@ If you want to contribute to this project:
 
 ### Author
 - **Mehedi Irfan**  
-  [Your GitHub Profile](https://github.com/Mehedi-irfan) 
+  [Mehedi-irfan](https://github.com/Mehedi-irfan) 
 
 ---
 
