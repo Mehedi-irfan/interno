@@ -61,7 +61,7 @@ home-interior-design/
 ```
 
 ## Demo
-A live demo is available at: [Your Demo Link Here](#)  
+A live demo is available at:[ [Your Demo Link Here](#)](https://mehedi-irfan.github.io/interno/)  
 (Replace this link with your deployed site link if hosted.)
 
 ## Contributing
@@ -82,8 +82,6 @@ If you want to contribute to this project:
    ```
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
